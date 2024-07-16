@@ -1,4 +1,4 @@
-# BCrack: Bcrypt Hash Cracker
+# BCrack: Bcrypt Hash Crackerr
 
 This C program prompts the user for a file path to a wordlist containing potential passwords and a bcrypt hash to crack. It reads each password from the wordlist, generates a bcrypt hash for each password, and compares it with the provided hash. If a match is found, it prints the password. The program assumes the presence of bcrypt-compatible hash and uses the crypt() function for hash generation. If successful, it terminates after finding the password.
 
