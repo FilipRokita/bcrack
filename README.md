@@ -1,27 +1,32 @@
-# BCrack: Bcrypt Password Hash Cracker
+# BCrack: Bcrypt Hash Cracker
 
-BCrack is a simple tool written in C, designed to crack Bcrypt hashed passwords using brute-force techniques. This tool emphasizes the importance of strong password practices and demonstrates the security benefits of Bcrypt for password hashing.
+This is a simple C program to crack a bcrypt hash using a provided wordlist.
 
-**License**: See LICENSE file for details.
+## Requirements
 
-Use it responsibly for educational purposes and ethical security testing, at your own risk.
+- Clang compiler
+- Linux environment (due to the use of `<unistd.h>` for `crypt`)
 
-## Usage Instructions:
-1. **Compilation**: Compile the program by executing `make`.
-2. **Execution**: Run the executable `bcrack`.
-3. **Input**: Provide the path to your wordlist file when prompted.
-4. **Target**: Enter the Bcrypt hash that you want to crack.
+## How to Use
 
-### Files Overview:
-- **main.c**, **file1.c**, **file2.c**: These files are placeholders. Customize or replace them according to your project needs.
+1. **Compile the Program:**
 
-## Compilation Steps:
-
-To compile the project, use the following command:
-```bash
-make
 ```
-To execute the program, use:
-```bash
+make bcrack
+```
+
+2. **Run the Program:**
+
+```
 ./bcrack
 ```
+
+3. **Follow the Prompts:**
+
+- Enter the path to the wordlist file containing passwords to test.
+- Enter the bcrypt hash that you want to crack.
+
+4. **Outcome:**
+
+- The program will read each password from the wordlist, generate its bcrypt hash, and compare it with the provided hash.
+- If a matching password is found, it will be displayed.
