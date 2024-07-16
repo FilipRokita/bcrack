@@ -40,8 +40,8 @@ Enter the bcrypt hash to crack: $2a$12$g/Ee8Hm1g1/5spm2V733euokwUNVkOYqLvX8YPCcY
 Password found: 123456
 ```
 
----
+## Note
 
-**Note: This tool is intended for educational purposes only. Use it responsibly and at your own risk.**
+**This tool is intended for educational purposes only. Use it responsibly and at your own risk.**
 
 For licensing information, refer to the [LICENSE](LICENSE).
