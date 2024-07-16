@@ -5,6 +5,7 @@ This is a simple C program to crack a bcrypt hash using a provided wordlist.
 ## Requirements
 
 - Clang compiler
+- Make
 - Linux environment (due to the use of `<unistd.h>` for `crypt`)
 
 ## How to Use
