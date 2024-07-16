@@ -42,6 +42,6 @@ Password found: 123456
 
 ## Note
 
-**This tool is intended for educational purposes only. Use it responsibly and at your own risk.**
+This tool is intended for educational purposes only. Use it responsibly and at your own risk.
 
 For licensing information, refer to the [LICENSE](LICENSE).
