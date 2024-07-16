@@ -30,3 +30,9 @@ make bcrack
 
 - The program will read each password from the wordlist, generate its bcrypt hash, and compare it with the provided hash.
 - If a matching password is found, it will be displayed.
+
+---
+
+**Note: This tool is intended for educational purposes only. Use it responsibly and at your own risk.**
+
+For licensing information, refer to the [LICENSE](LICENSE).
