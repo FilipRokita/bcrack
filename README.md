@@ -12,13 +12,13 @@ This C program prompts the user for a file path to a wordlist containing potenti
 
 1. **Compile the Program:**
 
-```bash
+```
 make bcrack
 ```
 
 2. **Run the Program:**
 
-```bash
+```
 ./bcrack
 ```
 
@@ -33,7 +33,7 @@ make bcrack
 - If a matching password is found, it will be displayed.
 
 ## Example
-```bash
+```
 $ ./bcrack
 Enter the path to the wordlist: example_wordlist.txt
 Enter the bcrypt hash to crack: $2a$12$g/Ee8Hm1g1/5spm2V733euokwUNVkOYqLvX8YPCcYBIQohj79L5KO
